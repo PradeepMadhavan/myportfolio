@@ -1345,6 +1345,7 @@ width: 900px;
     position: relative;
     margin-left: 100px;
     left: 166px;
+    width: fit-content;
     top: 40px;
     font-size: 40px;
     color: #29375c;
@@ -1392,4 +1393,31 @@ left: 0px;
   align-items: center;
 }
 
+.coder-img{
+  display: none;
+}
+.nav {
+  background-color: #bfd39b;
+  /* background-color:  #e7ffde; */
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  height: 6%;
+  width: 100%;
+  left: 0;
+  top: 0;
+ 
+}
+.nav .fa-solid {
+  display: block;
+  position: relative;
+  height: 30px;
+  cursor: pointer;
+  color: #29375c;
+  top: 0%;
+  /* left: 33%; */
+  align-items: center;
+  text-align: center;
+  margin-top: 12px;
+}
 }
