@@ -6,6 +6,10 @@ body {
   font-size: medium;
   background-color: #f5ffec;
 }
+.img1{
+  width: 270px;
+  height: 250px;
+}
 .nav {
   background-color: #bfd39b;
   /* background-color:  #e7ffde; */
@@ -1122,17 +1126,7 @@ a {
 .gets {
   margin-left: 33px;
   margin-top: -13px;
-  .about-heading {
-    position: relative;
-    margin-left: 120px;
-    top: 60px;
-    font-size: 40px;
-    color: #29375c;
-    font-family: "Angkor", serif;
-    font-weight: 300;
-    font-style: normal;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
+ 
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -1148,11 +1142,7 @@ a {
     background-size: 380px;
     background-color: #f5ffec;
   }
-  .fit-card {
-    top: 6%;
-    left: 37%;
-  }
-
+ 
   .aboutme {
     display: flex;
     justify-content: end;
@@ -1251,13 +1241,7 @@ a {
       .nav a{
         margin-left: 62px;
       } */
-  .fit-card {
-    width: 360px;
-    height: 470px;
-    position: relative;
-    top: 10%;
-    left: 37%;
-  }
+
   .img1 {
     top: 6%;
   }
@@ -1621,5 +1605,24 @@ width: 900px;
   } 
   body{
     overflow-x: hidden;
+  }
+  .fit-card {
+    width: 290px;
+    height: 410px;
+  
+    background-color: #bfd39b;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+  
+  }
+  .img1{
+    width: 240px;
+    height: 250px;
+    
+  }
+ 
+  .me-phara{
+    width: 290px;
   }
 }
